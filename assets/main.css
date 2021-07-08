@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;900&display=swap");
+* {
+  color: #5d5d5d;
+  font-family: Montserrat;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: #f4f6fc;
+  background-repeat: no-repeat;
+}
+
+div.container section.head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 10em;
+  background: -webkit-gradient(linear, left top, left bottom, from(#94b4ff), to(#ffffff00));
+  background: linear-gradient(to bottom, #94b4ff, #ffffff00);
+}
+
+div.container section.head div.logo img {
+  margin: 1.8em 0 0 1em;
+  width: 17em;
+}
+
+div.container section.head nav input {
+  display: none;
+}
+
+div.container section.head nav label {
+  display: none;
+}
+
+div.container section.head nav ul {
+  margin-top: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 1em;
+}
+
+div.container section.head nav ul li {
+  margin: 0 1em;
+  list-style: none;
+}
+
+div.container section.head nav ul li a {
+  text-decoration: none;
+  color: #5d5d5d;
+}
+
+div.container section.head nav ul li a:hover {
+  -webkit-transition: all 0.3s ease-in 0s;
+  transition: all 0.3s ease-in 0s;
+  color: white;
+  text-shadow: 0px 0px 20px #000000;
+}
+
+div.container section.hero {
+  padding: 1.5em;
+  padding-top: 0%;
+  margin-top: 30px;
+}
+
+div.container section.hero div.prim h1 {
+  display: inline-block;
+  font-size: 3em;
+  margin: 0%;
+  padding: 0%;
+  color: #5d5d5d;
+  text-shadow: 0px 0px 30px white;
+}
+
+div.container section.hero div.prim h1:hover {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  text-shadow: 0px 0px 50px black;
+}
+
+div.container section.hero div.prim h2 {
+  display: inline-block;
+  font-size: 1.3em;
+  text-shadow: 0px 0px 30px white;
+}
+
+div.container section.hero div.prim h2:hover {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  text-shadow: 0px 0px 50px #3a3a3a;
+}
+
+div.container section.hero div.prim div.underline {
+  height: 2px;
+  width: 80%;
+  background: -webkit-gradient(linear, left top, right top, from(#161616), to(#fff));
+  background: linear-gradient(to right, #161616, #fff);
+}
+
+div.container section.hero div.second h2 {
+  display: inline-block;
+  font-size: 1.3em;
+  text-shadow: 0px 0px 30px white;
+}
+
+div.container section.hero div.second h2:hover {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  text-shadow: 0px 0px 50px #3a3a3a;
+}
+
+div.container section.hero div.second div.underline {
+  height: 2px;
+  width: 80%;
+  background: -webkit-gradient(linear, left top, right top, from(#161616), to(#fff));
+  background: linear-gradient(to right, #161616, #fff);
+}
+
+div.container section.hero div.second p {
+  line-height: 1.5em;
+  padding-right: 3em;
+  text-align: justify;
+}
+
+div.container section.foot {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  height: 7em;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f4f6fc), color-stop(#2c2c2c9f), to(#2c2c2c));
+  background: linear-gradient(to bottom, #f4f6fc, #2c2c2c9f, #2c2c2c);
+}
+
+div.container section.foot div.trms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  margin-bottom: 0.3em;
+}
+
+div.container section.foot div.trms a {
+  color: white;
+  padding: 0.3em;
+}
+
+div.container section.foot div.copyright {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 0.3em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 930px) {
+  div.container section.head {
+    background: -webkit-gradient(linear, left top, left bottom, from(#6491fc), to(#ffffff00));
+    background: linear-gradient(to bottom, #6491fc, #ffffff00);
+  }
+  div.container section.head div.logo img {
+    width: 13em;
+    margin-top: 2.1em;
+  }
+  div.container section.head nav {
+    margin-right: 0;
+  }
+  div.container section.head nav ul li {
+    margin-right: 0;
+    margin: 0 0.6em;
+    list-style: none;
+  }
+  div.container section.head nav ul li a {
+    text-decoration: none;
+    color: #5d5d5d;
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+  div.container section.head nav ul li a:hover {
+    -webkit-transition: all 0.3s ease-in 0s;
+    transition: all 0.3s ease-in 0s;
+    color: white;
+    text-shadow: 0px 0px 20px #000000;
+  }
+}
+
+@media (max-width: 710px) {
+  div.container section.head {
+    background: -webkit-gradient(linear, left top, left bottom, from(#6491fc), to(#ffffff00));
+    background: linear-gradient(to bottom, #6491fc, #ffffff00);
+  }
+  div.container section.head div.logo img {
+    display: inline-block;
+    width: 12em;
+    margin-top: 2em;
+  }
+  div.container section.head nav {
+    margin: 0%;
+    padding: 0%;
+  }
+  div.container section.head nav input#check {
+    display: none;
+  }
+  div.container section.head nav input#check:checked ~ ul {
+    left: 0%;
+  }
+  div.container section.head nav input#check:checked ~ label div.top {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    margin: 0%;
+    margin-top: 3px;
+    padding: 0;
+  }
+  div.container section.head nav input#check:checked ~ label div.mid {
+    display: none;
+  }
+  div.container section.head nav input#check:checked ~ label div.bot {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    margin: 0%;
+    margin-top: -3px;
+    padding: 0;
+  }
+  div.container section.head nav label.lab {
+    display: block;
+    margin: 3em 1.5em 0 0;
+  }
+  div.container section.head nav label.lab div.top {
+    height: 3px;
+    width: 30px;
+    background-color: white;
+    margin-top: 5px;
+    -webkit-transition: ease-in 0.2s;
+    transition: ease-in 0.2s;
+  }
+  div.container section.head nav label.lab div.mid {
+    height: 3px;
+    width: 30px;
+    background-color: white;
+    margin-top: 3px;
+    -webkit-transition: ease-out 0.5s;
+    transition: ease-out 0.5s;
+  }
+  div.container section.head nav label.lab div.bot {
+    height: 3px;
+    width: 30px;
+    background-color: white;
+    margin-top: 3px;
+    -webkit-transition: ease-in 0.2s;
+    transition: ease-in 0.2s;
+  }
+  div.container section.head nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: fixed;
+    left: -100%;
+    top: 0%;
+    margin: 0%;
+    padding: 1em 0% 0 0;
+    background-color: #94b4ffde;
+    height: 55vh;
+    width: 50%;
+    border-bottom-right-radius: 10%;
+    -webkit-transition: ease-in 0.4s;
+    transition: ease-in 0.4s;
+    z-index: 1000;
+  }
+  div.container section.head nav ul li {
+    list-style: none;
+    margin: 1.7em 0 0 2em;
+    padding: 0%;
+  }
+  div.container section.head nav ul li a {
+    margin: 0;
+    padding: 0%;
+    text-decoration: none;
+    color: #202020;
+    font-size: 1.6em;
+    font-weight: normal;
+  }
+  div.container section.head nav ul li a:hover {
+    -webkit-transition: all 0.3s ease-in 0s;
+    transition: all 0.3s ease-in 0s;
+    color: white;
+    text-shadow: 0px 0px 20px #000000;
+  }
+  div.container section.hero div.prim h1 {
+    display: block;
+    font-size: 2.25em;
+    text-align: left;
+  }
+  div.container section.hero div.second p {
+    padding: 0.2em 1em;
+  }
+}
+/*# sourceMappingURL=main.css.map */
